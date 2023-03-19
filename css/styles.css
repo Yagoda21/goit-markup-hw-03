@@ -1,0 +1,227 @@
+:root {
+    --main-hero-color: #2e2f42;
+    --main-text-color: #434455;
+    --main-background-color: #ffffff;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* logo */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo_d {
+    color: #2e2f42;
+}
+
+.logo_w {
+    color: #f4f4fd;
+}
+
+/*END logo */
+
+/*                                Header                                */
+
+/* nav */
+.menu {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu:focus,
+.menu:hover {
+    color: #404bbf;
+}
+
+/* END nav  */
+/*---------*/
+/* addres  */
+
+.addr{
+    font-style: normal;
+}
+
+.addr_a {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.addr_a:hover,
+.addr_a:focus {
+    color: #404bbf;
+}
+
+/* END addres */
+
+/*                                END header             */
+/* ----------------------------------------------------- */
+/*                                Main index             */
+
+/* order */
+
+.order {
+    background-color: #2e2f42;
+}
+
+.order_t {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.order_button {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.order_button:hover,
+.order_button:focus {
+    background-color: #404bbf;
+    cursor: pointer;
+}
+
+/* END order */
+/*-----------*/
+/* features  */
+
+.featu_h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.featu_t {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* END features */
+/* ------------ */
+/* doing        */
+
+.doing {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+/* END doing    */
+/* ------------ */
+/* Team         */
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team_h {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team_member {
+    background-color: #ffffff;
+}
+
+.team_member_h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team_member_t {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* END Team     */
+
+/*                                END Main index         */
+/* ----------------------------------------------------- */
+/*                                Main portfolio         */
+.nav_button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer
+}
+
+.nav_button:hover,
+.nav_button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.main_sect_h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.main_sect_t {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*                                END Main portfolio         */
+
+/* footer      */
+
+.footer {
+    background-color: #2e2f42;
+}
+
+/* END footer */
