@@ -1,7 +1,24 @@
+html{
+    box-sizing: border-box;
+}
+
 *,
 *::before,
 *::after{
     box-sizing: border-box;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul{
+    margin-top: 0;
+margin-bottom: 0;
 }
 
 :root {
@@ -91,6 +108,7 @@ body {
 
 .order {
     background-color: #2e2f42;
+margin-top: 0px;
 }
 
 .order_t {
@@ -109,6 +127,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+   padding:  16px 32px;
+  
 }
 
 .order_button:hover,
@@ -127,6 +147,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-top: 120px;
 }
 
 .featu_t {
@@ -139,6 +160,12 @@ body {
 /* END features */
 /* ------------ */
 /* doing        */
+.list{
+    padding-bottom:  72px;
+}
+
+
+
 
 .doing {
     font-size: 36px;
@@ -147,6 +174,8 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-top: 120px;
+    
 }
 
 /* END doing    */
@@ -154,7 +183,8 @@ body {
 /* Team         */
 
 .team {
-    background-color: #f4f4fd;
+    background-color: #f4f4fd; 
+    
 }
 
 .team_h {
@@ -164,10 +194,12 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-top: 120px;
 }
 
 .team_member {
     background-color: #ffffff;
+    margin-top: 72px;
 }
 
 .team_member_h {
@@ -176,6 +208,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+   
 }
 
 .team_member_t {
@@ -183,6 +216,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-top: 32px;
 }
 
 /* END Team     */
@@ -228,6 +262,7 @@ body {
 
 .footer {
     background-color: #2e2f42;
+    margin-top: 120px;
 }
 
 /* END footer */
